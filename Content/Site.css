@@ -1,0 +1,128 @@
+﻿body {
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+ body {
+     font-size: 17px
+ }
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+/*Bootstrap overrides*/
+.navbar-inverse {
+    background-color: #ff4342;
+    border-color: #ff4342;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #963f3f;
+}
+.dropdown-menu {
+
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-control {
+
+    font-size: 17px;
+    padding: 20px 15px;
+    border-radius: 9px;
+}
+.form-control focus {
+    border-color: #2196f3;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.btn {
+    font-size: 17px;
+    padding: 7px 20px;
+    border-radius: 9px;
+}
+.navbar-brand {
+    font-weight: 700;
+}
+
+span.field-validation-error {
+    color: red;
+    font-weight: bold;
+}
+
+/*Page level css*/
+.gigs {
+    list-style: none;
+}
+.gigs > li {
+    position: relative;
+    margin-bottom: 30px; /*This will give 30px for every / between li element*/
+}
+
+.gigs >li .date {
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 60px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.gigs > li .date .month {
+
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 2px;
+
+
+
+}
+
+
+
+.gigs > li .date .day {
+    background: grey;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 6px 2px;
+}
+
+
+.gigs > li .details {
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
+
+.gigs > li .details .artist {
+    font-weight: bold;
+    display: block;  /*span by default is inline so break it with block*/
+}
+
+.gigs > li .details .genre {
+    font-size: 15px;
+}
