@@ -60,8 +60,8 @@ textarea {
     box-shadow: none;
 }
 .btn {
-    font-size: 17px;
-    padding: 7px 20px;
+    /*font-size: 17px;
+    padding: 7px 20px;*/
     border-radius: 9px;
 }
 .navbar-brand {
@@ -126,3 +126,4 @@ span.field-validation-error {
 .gigs > li .details .genre {
     font-size: 15px;
 }
+
